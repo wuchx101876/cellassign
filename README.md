@@ -20,7 +20,7 @@
 
 ``` r
 install.packages("tensorflow")
-tensorflow::install_tensorflow(extra_packages='tensorflow-probability', version = "2.1.0")
+tensorflow::install_tensorflow(extra_packages='tensorflow-probability', version = "2.13.1")
 ```
 
 Please ensure this installs version 2 of tensorflow. You can check this by calling
@@ -37,7 +37,7 @@ TensorFlow v2.1.0 (/usr/local/lib/python3.7/site-packages/tensorflow)
 
 ``` r
 install.packages("devtools") # If not already installed
-devtools::install_github("Irrationone/cellassign")
+devtools::install_github("wuchx101876/cellassign")
 ```
 
 
